@@ -6,7 +6,7 @@
 /*   By: tbelhomm <tbelhomm@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/16 14:41:33 by tbelhomm          #+#    #+#             */
-/*   Updated: 2020/11/16 15:15:07 by tbelhomm         ###   ########.fr       */
+/*   Updated: 2020/11/17 18:22:40 by tbelhomm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,5 @@ void	*ft_memset(void *s, int c, size_t n)
 		n--;
 		str++;
 	}
-	return (str);
+	return (s);
 }
