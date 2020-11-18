@@ -6,7 +6,7 @@
 /*   By: tbelhomm <tbelhomm@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/16 16:18:23 by tbelhomm          #+#    #+#             */
-/*   Updated: 2020/11/17 18:20:14 by tbelhomm         ###   ########.fr       */
+/*   Updated: 2020/11/18 15:57:10 by tbelhomm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memccpy(void *dest, const void *src, int c, size_t n)
 {
-	size_t		i;
+	size_t			i;
 	unsigned char	*dst_copy;
 	unsigned char	*src_copy;
 
