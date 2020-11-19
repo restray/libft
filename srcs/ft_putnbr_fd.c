@@ -6,14 +6,14 @@
 /*   By: tbelhomm <tbelhomm@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 16:17:27 by tbelhomm          #+#    #+#             */
-/*   Updated: 2020/11/19 16:18:25 by tbelhomm         ###   ########.fr       */
+/*   Updated: 2020/11/19 16:22:05 by tbelhomm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <unistd.h>
 
-void    ft_putnbr_fd(int n, int fd)
+void	ft_putnbr_fd(int n, int fd)
 {
 	ft_putstr_fd(ft_itoa(n), fd);
 }
