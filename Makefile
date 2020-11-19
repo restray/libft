@@ -8,9 +8,9 @@ SRC_FOLDER := ${patsubst %.c, ${D_OBJS}/%.c, ${SRCS}}
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
 
-all :		${NAME}
+all :		$(NAME)
 
-${NAME} :	${OBJS}
+$(NAME) :	${OBJS}
 	ar -crs ${NAME} ${OBJS}
 
 clean :
