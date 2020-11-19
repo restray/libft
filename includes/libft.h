@@ -6,7 +6,7 @@
 /*   By: tbelhomm <tbelhomm@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/16 14:57:33 by tbelhomm          #+#    #+#             */
-/*   Updated: 2020/11/17 20:50:31 by tbelhomm         ###   ########.fr       */
+/*   Updated: 2020/11/19 10:30:03 by tbelhomm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,5 +36,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size);
 char    *ft_strnstr(const char *big, const char *little, size_t len);
 char	*ft_strrchr(const char *s, int c);
 int	ft_atoi(char *str);
+void	*ft_calloc(size_t nmemb, size_t size);
+char    *ft_strdup(const char *s);
 
 #endif
