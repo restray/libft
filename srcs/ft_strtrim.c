@@ -6,13 +6,12 @@
 /*   By: tbelhomm <tbelhomm@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 10:59:10 by tbelhomm          #+#    #+#             */
-/*   Updated: 2020/11/19 15:15:31 by tbelhomm         ###   ########.fr       */
+/*   Updated: 2020/11/19 15:20:50 by tbelhomm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 static void	ft_unsetfirstchars(const char *s1, char const *set,
 		unsigned int *y, unsigned int set_len)
