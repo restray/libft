@@ -6,7 +6,7 @@
 /*   By: tbelhomm <tbelhomm@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 10:21:22 by tbelhomm          #+#    #+#             */
-/*   Updated: 2020/11/19 10:25:30 by tbelhomm         ###   ########.fr       */
+/*   Updated: 2020/11/20 13:06:15 by tbelhomm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,13 @@
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
+	void	*s;
+
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	return (malloc(nmemb * size));
+	s = malloc(nmemb * size);
+	if (!s)
+		return (NULL);
+	s = ft_memset(s, 0, nmemb * size);
+	return (s);
 }
